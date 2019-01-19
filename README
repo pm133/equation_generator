@@ -15,6 +15,6 @@ c_1*(x^2 + y^2 + z^2) + c_2*x + c_3*y + c_4*z + c_5 = 0 (sphere)
 
 c_1*x^2 + c_2*x*y + c_3*y^2 + c_4*x + c_5*y + c_6 = 0 (general conic)
 
-This program was designed to solve the general problems listed in the book 
-Applications of Linear Algebra by Chris Borres and Howard Anton nd requires the installation
+This program was designed to solve the general problems listed in Chapter 1 of the book 
+Applications of Linear Algebra by Chris Borres and Howard Anton (3rd edition) and requires the installation
 and subsequent use of the GNU Scientific Library.
