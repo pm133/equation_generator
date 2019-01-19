@@ -1,0 +1,23 @@
+#ifndef _ERROR_CODES_H_
+#define _ERROR_CODES_H_
+
+
+typedef enum
+{
+	ERR_OK = 0,
+	ERR_ARG_COUNT,
+	ERR_ARG_TYPE,
+	ERR_FILE,
+	ERR_MEM_ALLOC,
+	ERR_PARSE,
+	ERR_PARSE_DEC,
+	ERR_PARSE_RANGE,
+	ERR_PARSE_NEG,
+	ERR_SHAPE_UNKNOWN
+
+} ERROR_CODES;
+
+
+void exit_prog (int ret);
+
+#endif

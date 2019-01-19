@@ -1,0 +1,38 @@
+#ifndef _SHAPE_H_
+#define _SHAPE_H_
+
+
+typedef enum
+{
+	X_POS = 0,
+	Y_POS,
+	Z_POS
+
+} CART_POS;
+
+
+typedef enum
+{
+	LINE = 0,
+	PLANE,
+	CIRCLE,
+	SPHERE,
+	GENERAL_CONIC
+
+} SHAPE_TYPE;
+
+#define NUM_LINE_COORDS 2
+#define NUM_PLANE_COORDS 3
+#define NUM_CIRCLE_COORDS 3
+#define NUM_SPHERE_COORDS 4
+#define NUM_GENERAL_CONIC_COORDS 5
+
+#define NUM_LINE_DIMENSIONS 2
+#define NUM_PLANE_DIMENSIONS 3
+#define NUM_CIRCLE_DIMENSIONS 2
+#define NUM_SPHERE_DIMENSIONS 3
+#define NUM_GENERAL_CONIC_DIMENSIONS 2
+
+#define MAX_NUM_COORDS NUM_GENERAL_CONIC_COORDS
+
+#endif
